@@ -1,0 +1,125 @@
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/*div Color*/
+#box1 {
+    width: 50px;
+    height: 50px;
+    background-color: #787DD3;
+    opacity: 0.5;
+}
+
+#box2 {
+    width: 50px;
+    height: 50px;
+    background-color: #C2DE38;
+}
+
+/*div chapter-text*/
+
+#sub-chapter-fonts {
+    display: inline-flex;
+}
+
+.fonts { /*propertiese for all 3 boxes*/
+    height: 130px;
+    width: 25%;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*properties for individual boxes on fonts*/
+#serif {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*h3 text tags*/
+
+#sub-chapter-text-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.text-tags {
+    height: 130px;
+    width: 25%;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+#weight-bold {
+    font-weight: bold;
+}
+
+#style-italic {
+    font-style: italic;
+}
+
+#transform-uppercase {
+    text-transform: uppercase;
+}
+
+#transform-capitalize {
+    text-transform: capitalize;
+}
+
+#decoration-overline {
+    text-decoration: overline;
+}
+
+#line-height {
+    line-height: 200%;
+}
+
+#align-right {
+    text-align: right;
+}
+
+#vertical-align-image {
+    height: 49px;
+    width: 65px;
+}
+
+#vertical-align {
+    vertical-align: baseline;
+}
+
+#text-indent {
+    text-indent: 20px;
+}
+
+#text-shadow {
+    text-shadow: 4px 4px 4px #373dbd;
+}
+
+#first-letter:first-letter {
+    font-size: 200%;
+}
+
+#link-decoration:hover {
+    font-size: 200%;
+}
+
+#chapter-text>p {
+    border: 2px black solid;
+    width: 25%;
+    display: inline-block;
+}

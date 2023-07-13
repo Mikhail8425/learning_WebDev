@@ -1,0 +1,10 @@
+/*Chapter 2*/
+#ch2 {
+    display: inline-flex;
+}
+
+#ch2>div {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px black solid;
+}

@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+  <head>
+  <title>HTML_Duckett</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="styles-learning_WebDev_HTML.css" />
+
+  </head>
+  
+  
+
+  <body>
+
+    <header>
+      
+      <ul class="header">
+        <li><img src="../images/logo.png" id="logo"/></li>
+        <li><a href="../index-main.html" target="_blank">Home</a></li>
+        <li><a href="../components/topbar/projects/index-projects.html" target="_blank">Projects</a></li>
+        <li><a href="../components/topbar/about/index-about.html" target="_blank">About</a></li>
+      </ul>
+    
+    </header>
+
+    <h1 id="top">HTML J. Duckett</h1>
+    <main>
+      <div>
+        <h2>Textarea tags</h2>
+        <p>Block quote used for longer quotes. Quatation marks for in quotes imbeded in text.</p>
+        <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+        <p>Did you ever stop to think, and forget to start again?</p>
+        </blockquote>
+        <p>As A.A. Milne said, <q>Some people talk to animals. Not many listen though. That's the problem.</q></p>
+        <p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+        <h4>Other tags</h4>
+        <p>On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>.</p>
+        <p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.</p>
+        <p><b>Bold, </b><strong>Strong, </strong><i>Italic, </i> <em>Stress emphasis. </em></p>
+        <h4>Abbreviation and acronyms</h4>
+        <p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.</p>
+        <p><abbr title="National Aeronautics and Space Administration">NASA</abbr> do some crazy space stuff.</p>
+        <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p> 
+        <h4>Address</h4>
+        <address>
+          <p><a href="mailto:mikhailshemet@gmail.com">mikhailshemet@gmail.com</a></p>
+          <p>1402-15 Maitland Place, Toronto, ON</p>
+        </address>
+        <h4>Strike through</h4>
+        <p>It was the <del>worst</del> <ins>best</ins> idea she had ever had.</p>
+        <p>Laptop computer:</p>
+        <p><s>Was $995</s></p>
+        <p>Now only $375</p>
+      </div>
+      <hr />
+
+      <div>
+        <h2>Lists</h2>
+        <h3>Ordred list</h3>
+        <ol>
+          <li>Chop potatoes into quarters</li>
+          <li>Simmer in salted water for 15-20 minutes until tender</li>
+          <li>Heat milk, butter and nutmeg</li>
+          <li>Drain potatoes and mash</li>
+          <li>Mix in the milk mixture</li>
+        </ol>
+        
+        <h3>Unordered list</h3>
+        <ul>
+          <li>1kg King Edward potatoes</li>
+          <li>100ml milk</li>
+          <li>50g salted butter</li>
+          <li>Freshly grated nutmeg</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+
+        <h3>Definition</h3>
+        <dl>
+          <dt>Sashimi</dt>
+          <dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy sauce</dd>
+          <dt>Scale</dt>
+          <dd>A device used to accurately measure the weight of ingredients</dd>
+          <dd>A technique by which the scales are removed from the skin of a fish</dd>
+          <dt>Scamorzo</dt>
+          <dd>An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo milk)</dd>
+        </dl>
+
+        <h3>Nnested lists</h3>
+        <ul>
+          <li>Mousses</li>
+          <li>Pastries:
+            <ul>
+              <li>Croissant</li>
+              <li>Profiterole</li>
+              <li>Mille-feuille</li>
+            </ul>
+          </li>
+          <li>Tarts</li>
+        </ul>
+
+      </div>
+      <hr />
+
+      <div>
+        <h3>Links</h3>
+        <p>Links to other sites</p>
+        <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+        <p>Linking to Other Pages on the Same Site</p>
+        <ul>
+          <li><a href="..\index-main.html" target="_blank">Home</a></li>
+          <li><a href="..\components\topbar\about\index-about.html" target="_blank">About</a></li>
+          <li><a href="..\components\topbar\projects\index-projects.html" target="_blank">Projects</a></li>
+          <li><a href="..\components\topbar\contact\index-contact.html" target="_blank">Contact</a></li>
+        </ul>
+        <p>Relative URLs used when linking to pages within your own website.</p>
+        <br />
+        <a href="index-same-folder.html" target="_blank">Same folder</a>
+        <br />
+        <a href="child/index-child.html" target="_blank">Child folder</a>
+        <br />
+        <a href="../index-main.html" target="_blank">Parent folder (home page)</a>
+        <br />
+        <a href="#top">Top</a>
+        <br />
+        <a href="http:/www.htmlandcssbookcom/#bottom">Reference to specif place on a different page</a>
+        <br />
+      </div>
+      <hr />
+      
+      <div>
+      <h3>Images</h3>
+        
+        <img src="../images/quokka.jpg" alt="A family of quokka" title="The quokka is an Australian marsupial that is similar in size to the domestic cat." width="100" height="75" />
+        <br />
+        <figcaption>The quokka is an Australian marsupial that is similar in size to the domestic cat.</figcaption>
+      </div>
+      <hr />
+
+      <div>
+      <h3>Table</h3>
+        <table>
+          <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+          </tr>
+          <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+          </tr>
+          <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+          </tr>
+        </table>
+        <br />
+        <h4>Long Table</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Income</th>
+              <th>Expenditure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1st January</th>
+              <td>250</td>
+              <td>36</td>
+            </tr>
+            <tr>
+              <th>2nd January</th>
+              <td>285</td>
+              <td>48</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+              <th>31st January</th>
+              <td>129</td>
+              <td>64</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td>7824</td>
+              <td>1241</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <hr />
+
+      <div>
+      <h3>Forms</h3>
+      <h4>Components</h4>
+        <ul>
+          <li>Adding text
+            <ul>
+              <li>text impit - one line</li>
+              <li>password imput</li>
+              <li>tex area</li>
+            </ul>
+          </li>
+          <li>Making choices
+            <ul>
+              <li>radio button</li>
+              <li>checkboxes</li>
+              <li>drop down boxes</li>
+            </ul>
+          </li>
+          <li>Submitting/Uploading files</li>
+        </ul>
+
+        <form action="http://www.example.com/login.php">
+          <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+          </p>
+        </form>
+
+        <form action="http://www.example.com/comments.php">
+          <p>What did you think of this gig?</p>
+          <textarea name="comments" cols="20" rows="4" placeholder="Your comments"></textarea>
+          </form>
+
+        <form action="http://www.example.com/profile.php">
+          <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" /> Pop
+            <input type="radio" name="genre" value="jazz" /> Jazz
+          </p>
+        </form>
+
+        <form action="http://www.example.com/profile.php">
+          <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+          </p>
+        </form>
+
+        <form action="http://www.example.com/profile.php">
+          <p>What device do you listen to music on?</p>
+          <select name="devices">
+          <option value="ipod">iPod</option>
+          <option value="radio">Radio</option>
+          <option value="computer">Computer</option>
+          </select>
+        </form>
+
+        <form action="http://www.example.com/profile.php">
+          <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+          <select name="instruments" size="3" multiple="multiple"><!--size attribute to indicate how many options will be displayed at the same time-->
+            <option value="guitar" selected="selected">Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+          </select>
+        </form>
+
+        <form action="http://www.example.com/upload.php" method="post">
+          <p>Upload your song in MP3 format:</p>
+          <input type="file" name="user-song" /><br />
+          <input type="submit" value="Upload" />
+        </form>
+
+        <form action="http://www.example.com/subscribe.php">
+          <p>Subscribe to our email list:</p>
+          <input type="text" name="email" />
+          <input type="submit" name="subscribe" value="Subscribe" />
+        </form>
+
+        <form action="http://www.example.org/subscribe.php">
+          <p>Subscribe to our email list:</p>
+          <input type="text" name="email" />
+          <input type="image" src="../images/subscribe.png" width="100" height="20" />
+        </form>
+
+      </div>
+    </main>
+  </body>
+</html>

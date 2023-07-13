@@ -1,0 +1,16 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+#redBox {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: none;
+    position: relative;
+}
